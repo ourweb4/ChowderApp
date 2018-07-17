@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using ChowderApp.Pages;
 
 namespace ChowderApp
 {
@@ -13,5 +14,10 @@ namespace ChowderApp
 		{
 			InitializeComponent();
 		}
-	}
+
+        private async void Start_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HomPage());
+        }
+    }
 }

@@ -11,6 +11,7 @@
 // </copyright>
 // <summary></summary>
 // ***********************************************************************
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +30,7 @@ namespace ChowderApp.Models
         /// Gets or sets the store identifier.
         /// </summary>
         /// <value>The store identifier.</value>
-        
+        [PrimaryKey]
         public int StoreId { get; set; }
 
         /// <summary>

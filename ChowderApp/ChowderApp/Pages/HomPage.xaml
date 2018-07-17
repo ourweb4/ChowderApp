@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+           xmlns:local="clr-namespace:ChowderApp.Pages"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChowderApp.Pages.HomPage">
+  <!--Pages can be added as references or inline-->
+    <local:ListPage Title="Stores"/>
+    <local:MapPage Title="Maps"/>
+    <local:SettingsPage Title="Settings"/>
+</TabbedPage>

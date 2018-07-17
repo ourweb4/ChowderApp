@@ -82,7 +82,7 @@ namespace ChowderApp
 
             stores = JsonConvert.DeserializeObject<IList<StoreEntity>>(response);
              
-
+             
                 return stores;
             
         }
@@ -131,7 +131,7 @@ namespace ChowderApp
             Places place = new Places();
             string response = await client.GetStringAsync(PLACESENDPOINT + zip);
             place = JsonConvert.DeserializeObject<Places>(response);
-
+ 
             return place;
 
         }

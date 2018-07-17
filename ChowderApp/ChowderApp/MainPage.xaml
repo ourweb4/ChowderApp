@@ -4,7 +4,16 @@
              xmlns:local="clr-namespace:ChowderApp"
              x:Class="ChowderApp.MainPage">
 
-    <StackLayout>
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Captain Parker's Chowder locater" FontSize="Large" />
+        <Label Text="668 Rte. 28" />
+        <Label Text="West Yarmouth,MA. 02673 " />
+        <Label Text="" />
+        <Label Text="508-771-4266"   />
+        <Label Text="" />
+        <Button Text="Start App" Clicked="Start_Clicked"/>
+        <Label Text="" />
+        <Label Text="Program by ourweb.net" FontSize="Small" />
         <!-- Place new controls here -->
   
     </StackLayout>
