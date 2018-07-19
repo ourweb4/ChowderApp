@@ -10,6 +10,7 @@
         <Label Text="West Yarmouth,MA. 02673 " />
         <Label Text="" />
         <Label Text="508-771-4266"   />
+        <Label x:Name="vers"/>
         <Label Text="" />
         <Button Text="Start App" Clicked="Start_Clicked"/>
         <Label Text="" />

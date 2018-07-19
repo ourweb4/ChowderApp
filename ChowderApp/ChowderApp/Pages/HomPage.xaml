@@ -7,4 +7,5 @@
     <local:ListPage Title="Stores"/>
     <local:MapPage Title="Maps"/>
     <local:SettingsPage Title="Settings"/>
+    <local:RegistarPage Title="Registar" />
 </TabbedPage>

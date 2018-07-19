@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="Registar" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChowderApp.Pages.RegistarPage">
+ 
+        <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+            
+            <StackLayout Orientation="Horizontal" >
+                <Entry x:Name="efname" Placeholder="First Name" />
+                <Entry x:Name="elname" Placeholder="Last Name" />
+            </StackLayout>
+           <Entry x:Name="ecompany"  Placeholder="Company" />
+        <Entry x:Name="eaddress" Placeholder="Address" />
+
+        <StackLayout Orientation="Horizontal" >
+            <Entry x:Name="ecity" Placeholder="City" />
+            <Entry x:Name="estate" Placeholder="State" />
+            <Entry x:Name="ezip" Placeholder="Zip" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" >
+            <Entry x:Name="ephone"  
+                   Placeholder="Phone"  />
+            <Entry x:Name="eemail" 
+                   Placeholder="Email" />
+        </StackLayout>
+        <Button Text="Registar" Clicked="Registar_Clicked" />
+        <Label Text="" />
+        <Label Text="Program by ourweb.net" FontSize="Small" />
+
+    </StackLayout>
+ 
+</ContentPage>

@@ -22,7 +22,7 @@ namespace ChowderApp.Helpers
     /// <summary>
     /// Class Settings.
     /// </summary>
-    class Settings
+    public class Settings
     {
         // Valeus
         /// <summary>
